@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dist/style-map.css">
+</head>
+<body>
+
+    <div class="experience">
+        <canvas id="experience-canvas"></canvas>
+    </div>
+    <div class="modal hidden">
+      <div class="modal-wrapper">
+        <div class="modal-header">
+          <a class="modal-exit-button" ><img src="dist/equis.svg" style="width:128px; height:128 px; margin:24px;"></a>
+          <h1 class="modal-title"></h1>
+        </div>
+        <div class="modal-content">
+          <div class="modal-content-wrapper">
+            <a class="modal-visit-button" href="">Explorar</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<script type="importmap">
+    {
+        "imports": {
+            "three": "https://cdn.jsdelivr.net/npm/three@v0.174.0/build/three.module.js",
+            "three/addons/": "https://cdn.jsdelivr.net/npm/three@v0.174.0/examples/jsm/"
+        }
+    }
+</script>
+
+
+    <script type="module" src="dist/main-map.js"></script>
+</body>
+</html>
