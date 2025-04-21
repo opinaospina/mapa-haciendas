@@ -49,12 +49,12 @@ const intersectObjectsNames=["Hacienda_la_primavera", "Hacienda_casablanca","Hac
 
 //TEXTO
 const modalContent ={
-    Hacienda_la_primavera:{title:"Descubre los relatos de La Primavera", link:"https://esta-tierra-bendita-224ad0.webflow.io/historia-la-primavera-de-paris"}, 
-    Hacienda_casablanca:{title:"Descubre los relatos de la Estancia de los Baracaldo", link:"https://esta-tierra-bendita-224ad0.webflow.io/estancia-de-los-baracaldo"}, 
-    Hacienda_Salgado:{title:"Descubre los relatos de la hacienda Salgado", link:"https://esta-tierra-bendita-224ad0.webflow.io/el-potrero-de-salgado"}, 
-    HAcienda_San_Salvador:{title:"Descubre los relatos de la hacienda San Salvador", link:"https://esta-tierra-bendita-224ad0.webflow.io/hacienda-salgado"}, 
-    Estancia_alonso:{title:"Descubre los relatos de la Estancia de los Alonso", link:"https://esta-tierra-bendita-224ad0.webflow.io/estancia-de-los-alonso"}, 
-    Scene:{title:"Descubre los relatos del resguardo de Cueca", link:"https://esta-tierra-bendita-224ad0.webflow.io/menu-cueca"}
+    Hacienda_la_primavera:{title:"Descubre los relatos de La Primavera", link:"https://esta-tierra-bendita-2025.webflow.io/historia-la-primavera-de-paris"}, 
+    Hacienda_casablanca:{title:"Descubre los relatos de la Estancia de los Baracaldo", link:"https://esta-tierra-bendita-2025.webflow.io/estancia-de-los-baracaldo"}, 
+    Hacienda_Salgado:{title:"Descubre los relatos de la hacienda Salgado", link:"https://esta-tierra-bendita-2025.webflow.io/el-potrero-de-salgado"}, 
+    HAcienda_San_Salvador:{title:"Descubre los relatos de la hacienda San Salvador", link:"https://esta-tierra-bendita-2025.webflow.io/hacienda-salgado"}, 
+    Estancia_alonso:{title:"Descubre los relatos de la Estancia de los Alonso", link:"https://esta-tierra-bendita-2025.webflow.io/estancia-de-los-alonso"}, 
+    Scene:{title:"Descubre los relatos del resguardo de Cueca", link:"https://esta-tierra-bendita-2025.webflow.io/menu-cueca"}
 };
 const modal = document.querySelector(".modal");
 const modalTitle = document.querySelector(".modal-title");
