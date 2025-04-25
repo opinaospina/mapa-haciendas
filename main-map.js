@@ -244,6 +244,11 @@ window.addEventListener("pointermove", onPointerMove);
 
 
 function animate() {	
+    console.log(camera.position.x);
+    camera.position.x = THREE.MathUtils.clamp(camera.position.x, -75,40);
+    camera.position.z = THREE.MathUtils.clamp(camera.position.z, -300, 150);
+    camera.lookAt(scene.position); // La cámara mirará al centro de la escena
+
     //checkCameraCollisions();
     raycaster.setFromCamera( pointer, camera );
  	const intersects = raycaster.intersectObjects(intersectObjects);
