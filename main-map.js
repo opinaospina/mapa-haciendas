@@ -49,7 +49,7 @@ const intersectObjectsNames=["Hacienda_la_primavera", "Hacienda_casablanca","Hac
 
 //TEXTO
 const modalContent ={
-    Hacienda_la_primavera:{title:"Descubre los relatos de La Primavera", link:"https://esta-tierra-bendita-2025.webflow.io/historia-la-primavera-de-paris"}, 
+    Hacienda_la_primavera:{title:"Descubre los relatos de La Primavera", link:"https://esta-tierra-bendita-2025.webflow.io/historia-la-primavera-de-p"}, 
     Hacienda_casablanca:{title:"Descubre los relatos de la Estancia de los Baracaldo", link:"https://esta-tierra-bendita-2025.webflow.io/estancia-de-los-baracaldo"}, 
     Hacienda_Salgado:{title:"Descubre los relatos de la hacienda Salgado", link:"https://esta-tierra-bendita-2025.webflow.io/el-potrero-de-salgado"}, 
     HAcienda_San_Salvador:{title:"Descubre los relatos de la hacienda San Salvador", link:"https://esta-tierra-bendita-2025.webflow.io/hacienda-salgado"}, 
